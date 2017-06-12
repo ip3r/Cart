@@ -353,7 +353,6 @@
 			isa = PBXGroup;
 			children = (
 				B46230471EEEDDFD00C94EFF /* API */,
-				B462304B1EEEDDFD00C94EFF /* CurrencyRefresh.swift */,
 				B462304C1EEEDDFD00C94EFF /* Model */,
 				B46230521EEEDDFD00C94EFF /* Protocols */,
 				B46230561EEEDDFD00C94EFF /* UI */,
@@ -396,6 +395,7 @@
 		B46230561EEEDDFD00C94EFF /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				B462304B1EEEDDFD00C94EFF /* CurrencyRefresh.swift */,
 				B46230571EEEDDFD00C94EFF /* CurrenciesTableItems.swift */,
 				B46230581EEEDDFD00C94EFF /* CurrenciesViewController.swift */,
 				B46230591EEEDDFD00C94EFF /* CurrencyTableViewCell.swift */,
