@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B46230341EEEDD8400C94EFF /* ConstAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230191EEEDD8400C94EFF /* ConstAmount.swift */; };
+		B46230351EEEDD8400C94EFF /* ConstString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462301A1EEEDD8400C94EFF /* ConstString.swift */; };
+		B46230361EEEDD8400C94EFF /* ConstURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462301B1EEEDD8400C94EFF /* ConstURL.swift */; };
+		B46230371EEEDD8400C94EFF /* OOString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462301D1EEEDD8400C94EFF /* OOString.swift */; };
+		B46230381EEEDD8400C94EFF /* OOURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462301E1EEEDD8400C94EFF /* OOURL.swift */; };
+		B46230391EEEDD8400C94EFF /* ViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230211EEEDD8400C94EFF /* ViewDelegates.swift */; };
+		B462303B1EEEDD8400C94EFF /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230241EEEDD8400C94EFF /* CancelButton.swift */; };
+		B462303E1EEEDD8400C94EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230281EEEDD8400C94EFF /* ViewController.swift */; };
+		B462303F1EEEDD8400C94EFF /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462302A1EEEDD8400C94EFF /* Transition.swift */; };
+		B46230401EEEDD8400C94EFF /* ViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462302B1EEEDD8400C94EFF /* ViewDelegate.swift */; };
+		B46230411EEEDD8400C94EFF /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462302D1EEEDD8400C94EFF /* TableView.swift */; };
+		B46230451EEEDD8400C94EFF /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230331EEEDD8400C94EFF /* Memory.swift */; };
+		B462305A1EEEDDFD00C94EFF /* APIToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230481EEEDDFD00C94EFF /* APIToken.swift */; };
+		B462305B1EEEDDFD00C94EFF /* JSONRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230491EEEDDFD00C94EFF /* JSONRates.swift */; };
+		B462305C1EEEDDFD00C94EFF /* JSONRatesURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462304A1EEEDDFD00C94EFF /* JSONRatesURL.swift */; };
+		B462305D1EEEDDFD00C94EFF /* CurrencyRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462304B1EEEDDFD00C94EFF /* CurrencyRefresh.swift */; };
+		B462305E1EEEDDFD00C94EFF /* CurrencyName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462304D1EEEDDFD00C94EFF /* CurrencyName.swift */; };
+		B462305F1EEEDDFD00C94EFF /* InMemoryCurrencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462304E1EEEDDFD00C94EFF /* InMemoryCurrencies.swift */; };
+		B46230601EEEDDFD00C94EFF /* InMemoryCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462304F1EEEDDFD00C94EFF /* InMemoryCurrency.swift */; };
+		B46230611EEEDDFD00C94EFF /* JSONRatesCurrencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230501EEEDDFD00C94EFF /* JSONRatesCurrencies.swift */; };
+		B46230621EEEDDFD00C94EFF /* SortedCurrencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230511EEEDDFD00C94EFF /* SortedCurrencies.swift */; };
+		B46230631EEEDDFD00C94EFF /* Currencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230531EEEDDFD00C94EFF /* Currencies.swift */; };
+		B46230641EEEDDFD00C94EFF /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230541EEEDDFD00C94EFF /* Currency.swift */; };
+		B46230651EEEDDFD00C94EFF /* CurrencySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230551EEEDDFD00C94EFF /* CurrencySource.swift */; };
+		B46230661EEEDDFD00C94EFF /* CurrenciesTableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230571EEEDDFD00C94EFF /* CurrenciesTableItems.swift */; };
+		B46230671EEEDDFD00C94EFF /* CurrenciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230581EEEDDFD00C94EFF /* CurrenciesViewController.swift */; };
+		B46230681EEEDDFD00C94EFF /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230591EEEDDFD00C94EFF /* CurrencyTableViewCell.swift */; };
+		B462306A1EEEDE7000C94EFF /* ClosingTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230691EEEDE7000C94EFF /* ClosingTableDelegate.swift */; };
+		B462306E1EEEDED600C94EFF /* DismissTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462306C1EEEDED600C94EFF /* DismissTransition.swift */; };
+		B46230711EEEDEFF00C94EFF /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230701EEEDEFF00C94EFF /* Amount.swift */; };
 		B467003F1EEACB7500DA522C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467003E1EEACB7500DA522C /* AppDelegate.swift */; };
 		B46700461EEACB7500DA522C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46700451EEACB7500DA522C /* Assets.xcassets */; };
 		B46700491EEACB7500DA522C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46700471EEACB7500DA522C /* LaunchScreen.storyboard */; };
@@ -24,6 +54,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B46230191EEEDD8400C94EFF /* ConstAmount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstAmount.swift; sourceTree = "<group>"; };
+		B462301A1EEEDD8400C94EFF /* ConstString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstString.swift; sourceTree = "<group>"; };
+		B462301B1EEEDD8400C94EFF /* ConstURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstURL.swift; sourceTree = "<group>"; };
+		B462301D1EEEDD8400C94EFF /* OOString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOString.swift; sourceTree = "<group>"; };
+		B462301E1EEEDD8400C94EFF /* OOURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOURL.swift; sourceTree = "<group>"; };
+		B46230211EEEDD8400C94EFF /* ViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDelegates.swift; sourceTree = "<group>"; };
+		B46230241EEEDD8400C94EFF /* CancelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
+		B46230281EEEDD8400C94EFF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B462302A1EEEDD8400C94EFF /* Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		B462302B1EEEDD8400C94EFF /* ViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDelegate.swift; sourceTree = "<group>"; };
+		B462302D1EEEDD8400C94EFF /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		B46230331EEEDD8400C94EFF /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		B46230481EEEDDFD00C94EFF /* APIToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIToken.swift; sourceTree = "<group>"; };
+		B46230491EEEDDFD00C94EFF /* JSONRates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONRates.swift; sourceTree = "<group>"; };
+		B462304A1EEEDDFD00C94EFF /* JSONRatesURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONRatesURL.swift; sourceTree = "<group>"; };
+		B462304B1EEEDDFD00C94EFF /* CurrencyRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRefresh.swift; sourceTree = "<group>"; };
+		B462304D1EEEDDFD00C94EFF /* CurrencyName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyName.swift; sourceTree = "<group>"; };
+		B462304E1EEEDDFD00C94EFF /* InMemoryCurrencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryCurrencies.swift; sourceTree = "<group>"; };
+		B462304F1EEEDDFD00C94EFF /* InMemoryCurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryCurrency.swift; sourceTree = "<group>"; };
+		B46230501EEEDDFD00C94EFF /* JSONRatesCurrencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONRatesCurrencies.swift; sourceTree = "<group>"; };
+		B46230511EEEDDFD00C94EFF /* SortedCurrencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortedCurrencies.swift; sourceTree = "<group>"; };
+		B46230531EEEDDFD00C94EFF /* Currencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currencies.swift; sourceTree = "<group>"; };
+		B46230541EEEDDFD00C94EFF /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		B46230551EEEDDFD00C94EFF /* CurrencySource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencySource.swift; sourceTree = "<group>"; };
+		B46230571EEEDDFD00C94EFF /* CurrenciesTableItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrenciesTableItems.swift; sourceTree = "<group>"; };
+		B46230581EEEDDFD00C94EFF /* CurrenciesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrenciesViewController.swift; sourceTree = "<group>"; };
+		B46230591EEEDDFD00C94EFF /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		B46230691EEEDE7000C94EFF /* ClosingTableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosingTableDelegate.swift; sourceTree = "<group>"; };
+		B462306C1EEEDED600C94EFF /* DismissTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissTransition.swift; sourceTree = "<group>"; };
+		B46230701EEEDEFF00C94EFF /* Amount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
 		B467003B1EEACB7500DA522C /* Cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B467003E1EEACB7500DA522C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B46700451EEACB7500DA522C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +112,170 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B46230161EEEDD8400C94EFF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B46230171EEEDD8400C94EFF /* Entities */,
+				B462301F1EEEDD8400C94EFF /* UIKit */,
+				B46230321EEEDD8400C94EFF /* Utils */,
+			);
+			path = Core;
+			sourceTree = SOURCE_ROOT;
+		};
+		B46230171EEEDD8400C94EFF /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B46230701EEEDEFF00C94EFF /* Amount.swift */,
+				B46230181EEEDD8400C94EFF /* Const */,
+				B462301C1EEEDD8400C94EFF /* Protocols */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B46230181EEEDD8400C94EFF /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				B46230191EEEDD8400C94EFF /* ConstAmount.swift */,
+				B462301A1EEEDD8400C94EFF /* ConstString.swift */,
+				B462301B1EEEDD8400C94EFF /* ConstURL.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		B462301C1EEEDD8400C94EFF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B462301D1EEEDD8400C94EFF /* OOString.swift */,
+				B462301E1EEEDD8400C94EFF /* OOURL.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B462301F1EEEDD8400C94EFF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B462306B1EEEDED600C94EFF /* Transitions */,
+				B46230201EEEDD8400C94EFF /* Adapters */,
+				B46230221EEEDD8400C94EFF /* BarButtonItems */,
+				B46230271EEEDD8400C94EFF /* OOP */,
+				B46230291EEEDD8400C94EFF /* Protocols */,
+				B462302C1EEEDD8400C94EFF /* TableView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		B46230201EEEDD8400C94EFF /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				B46230211EEEDD8400C94EFF /* ViewDelegates.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		B46230221EEEDD8400C94EFF /* BarButtonItems */ = {
+			isa = PBXGroup;
+			children = (
+				B46230241EEEDD8400C94EFF /* CancelButton.swift */,
+			);
+			path = BarButtonItems;
+			sourceTree = "<group>";
+		};
+		B46230271EEEDD8400C94EFF /* OOP */ = {
+			isa = PBXGroup;
+			children = (
+				B46230281EEEDD8400C94EFF /* ViewController.swift */,
+			);
+			path = OOP;
+			sourceTree = "<group>";
+		};
+		B46230291EEEDD8400C94EFF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B462302A1EEEDD8400C94EFF /* Transition.swift */,
+				B462302B1EEEDD8400C94EFF /* ViewDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B462302C1EEEDD8400C94EFF /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				B46230691EEEDE7000C94EFF /* ClosingTableDelegate.swift */,
+				B462302D1EEEDD8400C94EFF /* TableView.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		B46230321EEEDD8400C94EFF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B46230331EEEDD8400C94EFF /* Memory.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B46230461EEEDDFD00C94EFF /* Currencies */ = {
+			isa = PBXGroup;
+			children = (
+				B46230471EEEDDFD00C94EFF /* API */,
+				B462304B1EEEDDFD00C94EFF /* CurrencyRefresh.swift */,
+				B462304C1EEEDDFD00C94EFF /* Model */,
+				B46230521EEEDDFD00C94EFF /* Protocols */,
+				B46230561EEEDDFD00C94EFF /* UI */,
+			);
+			path = Currencies;
+			sourceTree = "<group>";
+		};
+		B46230471EEEDDFD00C94EFF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B46230481EEEDDFD00C94EFF /* APIToken.swift */,
+				B46230491EEEDDFD00C94EFF /* JSONRates.swift */,
+				B462304A1EEEDDFD00C94EFF /* JSONRatesURL.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B462304C1EEEDDFD00C94EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B462304D1EEEDDFD00C94EFF /* CurrencyName.swift */,
+				B462304E1EEEDDFD00C94EFF /* InMemoryCurrencies.swift */,
+				B462304F1EEEDDFD00C94EFF /* InMemoryCurrency.swift */,
+				B46230501EEEDDFD00C94EFF /* JSONRatesCurrencies.swift */,
+				B46230511EEEDDFD00C94EFF /* SortedCurrencies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B46230521EEEDDFD00C94EFF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B46230531EEEDDFD00C94EFF /* Currencies.swift */,
+				B46230541EEEDDFD00C94EFF /* Currency.swift */,
+				B46230551EEEDDFD00C94EFF /* CurrencySource.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B46230561EEEDDFD00C94EFF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B46230571EEEDDFD00C94EFF /* CurrenciesTableItems.swift */,
+				B46230581EEEDDFD00C94EFF /* CurrenciesViewController.swift */,
+				B46230591EEEDDFD00C94EFF /* CurrencyTableViewCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B462306B1EEEDED600C94EFF /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				B462306C1EEEDED600C94EFF /* DismissTransition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
 		B46700321EEACB7500DA522C = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +297,8 @@
 		B467003D1EEACB7500DA522C /* Cart */ = {
 			isa = PBXGroup;
 			children = (
+				B46230461EEEDDFD00C94EFF /* Currencies */,
+				B46230161EEEDD8400C94EFF /* Core */,
 				B467003E1EEACB7500DA522C /* AppDelegate.swift */,
 				B46700451EEACB7500DA522C /* Assets.xcassets */,
 				B46700471EEACB7500DA522C /* LaunchScreen.storyboard */,
@@ -193,7 +419,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46230601EEEDDFD00C94EFF /* InMemoryCurrency.swift in Sources */,
+				B462306E1EEEDED600C94EFF /* DismissTransition.swift in Sources */,
+				B46230711EEEDEFF00C94EFF /* Amount.swift in Sources */,
+				B46230631EEEDDFD00C94EFF /* Currencies.swift in Sources */,
+				B46230371EEEDD8400C94EFF /* OOString.swift in Sources */,
+				B46230641EEEDDFD00C94EFF /* Currency.swift in Sources */,
+				B462305A1EEEDDFD00C94EFF /* APIToken.swift in Sources */,
+				B462305C1EEEDDFD00C94EFF /* JSONRatesURL.swift in Sources */,
+				B46230351EEEDD8400C94EFF /* ConstString.swift in Sources */,
+				B46230401EEEDD8400C94EFF /* ViewDelegate.swift in Sources */,
+				B46230671EEEDDFD00C94EFF /* CurrenciesViewController.swift in Sources */,
+				B462305E1EEEDDFD00C94EFF /* CurrencyName.swift in Sources */,
+				B46230361EEEDD8400C94EFF /* ConstURL.swift in Sources */,
+				B46230411EEEDD8400C94EFF /* TableView.swift in Sources */,
+				B462306A1EEEDE7000C94EFF /* ClosingTableDelegate.swift in Sources */,
+				B46230651EEEDDFD00C94EFF /* CurrencySource.swift in Sources */,
+				B46230451EEEDD8400C94EFF /* Memory.swift in Sources */,
+				B46230391EEEDD8400C94EFF /* ViewDelegates.swift in Sources */,
+				B46230661EEEDDFD00C94EFF /* CurrenciesTableItems.swift in Sources */,
 				B467003F1EEACB7500DA522C /* AppDelegate.swift in Sources */,
+				B46230611EEEDDFD00C94EFF /* JSONRatesCurrencies.swift in Sources */,
+				B462305F1EEEDDFD00C94EFF /* InMemoryCurrencies.swift in Sources */,
+				B462305B1EEEDDFD00C94EFF /* JSONRates.swift in Sources */,
+				B462305D1EEEDDFD00C94EFF /* CurrencyRefresh.swift in Sources */,
+				B46230621EEEDDFD00C94EFF /* SortedCurrencies.swift in Sources */,
+				B462303E1EEEDD8400C94EFF /* ViewController.swift in Sources */,
+				B46230681EEEDDFD00C94EFF /* CurrencyTableViewCell.swift in Sources */,
+				B462303F1EEEDD8400C94EFF /* Transition.swift in Sources */,
+				B46230341EEEDD8400C94EFF /* ConstAmount.swift in Sources */,
+				B46230381EEEDD8400C94EFF /* OOURL.swift in Sources */,
+				B462303B1EEEDD8400C94EFF /* CancelButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

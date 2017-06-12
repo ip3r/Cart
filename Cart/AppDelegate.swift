@@ -13,9 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let currencies = JSONRatesCurrencies()
 		window = UIWindow()
         window?.rootViewController = UINavigationController(
-            rootViewController: UIViewController()
+            rootViewController: CurrenciesViewController(
+                currencies: currencies
+            )
         )
         window?.makeKeyAndVisible()
         return true
