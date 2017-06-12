@@ -57,7 +57,10 @@ internal final class CartViewController: ViewController {
                     CheckoutButton(
                         button: button,
                         transition: PushTransition(viewController: { () -> (UIViewController) in
-                            return UIViewController()
+                            return CheckoutViewController(
+                                items: cartItems,
+                                currencies: currencies
+                            )
                         }),
                         items: cartItems
                     )
