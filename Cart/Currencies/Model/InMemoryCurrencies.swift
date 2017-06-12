@@ -11,22 +11,20 @@ import Foundation
 internal final class InMemoryCurrencies: Currencies {
 	private let currencies: Memory<[String: Float]>
 	private let currentISO: Memory<String>
+    private let closure: (String, Memory<String>) -> (Currency)
 	
 	// MARK: Init
-	
-    internal required init(currencies: Memory<[String: Float]>, currentISO: Memory<String>) {
+    
+    internal required init(currencies: Memory<[String: Float]>, currentISO: Memory<String>, closure: @escaping (String, Memory<String>) -> (Currency)) {
         self.currencies = currencies
 		self.currentISO = currentISO
+        self.closure = closure
     }
     
     // MARK: Currencies
 	
 	var current: Currency {
-		return InMemoryCurrency(
-			currencies: currencies,
-			key: currentISO.value,
-			current: currentISO
-		)
+		return closure(currentISO.value, currentISO)
 	}
 	
 	var count: Int {
@@ -35,21 +33,13 @@ internal final class InMemoryCurrencies: Currencies {
 	
 	subscript(index: Int) -> Currency {
 		let key = Array(currencies.value.keys)[index]
-		return InMemoryCurrency(
-			currencies: currencies,
-			key: key,
-			current: currentISO
-		)
+		return closure(key, currentISO)
 	}
 	
 	func currency(with code: String) -> [Currency] {
 		var result: [Currency] = []
 		if let _ = currencies.value[code] {
-			result.append(InMemoryCurrency(
-				currencies: currencies,
-				key: code,
-				current: currentISO
-			))
+			result.append(closure(code, currentISO))
 		}
 		return result
 	}

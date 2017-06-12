@@ -10,15 +10,17 @@ import Foundation
 
 internal final class InMemoryCurrency: Currency {
 	private let currencies: Memory<[String: Float]>
+    private let mapping: Memory<[String:String]>
 	private let current: Memory<String>
 	private let key: String
 	
 	// MARK: Init
     
-    internal init(currencies: Memory<[String: Float]>, key: String, current: Memory<String>) {
+    internal required init(currencies: Memory<[String: Float]>, key: String, current: Memory<String>, mapping: Memory<[String:String]>) {
         self.currencies = currencies
 		self.key = key
 		self.current = current
+        self.mapping = mapping
     }
     
     // MARK: Currency
@@ -28,7 +30,7 @@ internal final class InMemoryCurrency: Currency {
 	}
 	
 	var name: OOString {
-		return CurrencyName(key: key)
+		return ConstString(mapping.value[key]!)
 	}
 	
 	var rate: Double {

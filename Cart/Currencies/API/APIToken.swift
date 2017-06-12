@@ -8,17 +8,15 @@
 
 import Foundation
 
-internal final class APIToken: OOString {
+internal final class APIToken: OOStringWrap {
 
 	// MARK: Init
     
     internal init() {
-        
+        super.init(
+            origin: ConstString(
+                "7e06c98a6cbc412c4b931e86af36ea25"
+            )
+        )
     }
-    
-    // MARK: OOString
-	
-	var stringValue: String {
-		return "7e06c98a6cbc412c4b931e86af36ea2"
-	}
 }

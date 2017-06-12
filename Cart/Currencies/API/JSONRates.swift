@@ -24,9 +24,7 @@ internal final class JSONRates: CurrencySource {
 			session: URLSession(
 				configuration: configuration
 			),
-			url: JSONRatesURL(
-				accessKey: APIToken()
-			)
+			url: JSONRatesURL()
 		)
 	}
 	

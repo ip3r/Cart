@@ -26,3 +26,19 @@ internal final class FakeOOURL: OOURL {
         return URL(string: "fake://url")!
     }
 }
+
+internal class OOURLWrap: OOURL {
+    private let origin: OOURL
+    
+    // MARK: - Init
+    
+    internal init(origin: OOURL) {
+        self.origin = origin
+    }
+    
+    // MARK: - OOURL
+    
+    var urlValue: URL {
+        return origin.urlValue
+    }
+}
