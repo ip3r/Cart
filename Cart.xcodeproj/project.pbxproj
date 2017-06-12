@@ -119,7 +119,8 @@
 				B462301F1EEEDD8400C94EFF /* UIKit */,
 				B46230321EEEDD8400C94EFF /* Utils */,
 			);
-			path = Core;
+			name = Core;
+			path = Cart/Core;
 			sourceTree = SOURCE_ROOT;
 		};
 		B46230171EEEDD8400C94EFF /* Entities */ = {
