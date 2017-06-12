@@ -46,6 +46,14 @@
 		B46230851EEEE07300C94EFF /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462307D1EEEE07300C94EFF /* ProductsViewController.swift */; };
 		B46230921EEEE0B200C94EFF /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462308B1EEEE0B200C94EFF /* CartItem.swift */; };
 		B46230931EEEE0B200C94EFF /* CartItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462308C1EEEE0B200C94EFF /* CartItems.swift */; };
+		B462309C1EEEE1A200C94EFF /* InMemoryCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230971EEEE1A200C94EFF /* InMemoryCart.swift */; };
+		B462309D1EEEE1A200C94EFF /* InMemoryCartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230981EEEE1A200C94EFF /* InMemoryCartItem.swift */; };
+		B462309E1EEEE1A200C94EFF /* CartTableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462309A1EEEE1A200C94EFF /* CartTableItems.swift */; };
+		B462309F1EEEE1A200C94EFF /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462309B1EEEE1A200C94EFF /* CartViewController.swift */; };
+		B46230A21EEEE1C300C94EFF /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230A01EEEE1C300C94EFF /* AddButton.swift */; };
+		B46230A31EEEE1C300C94EFF /* CheckoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230A11EEEE1C300C94EFF /* CheckoutButton.swift */; };
+		B46230A81EEEE1E900C94EFF /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230A61EEEE1E900C94EFF /* ModalTransition.swift */; };
+		B46230A91EEEE1E900C94EFF /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230A71EEEE1E900C94EFF /* PushTransition.swift */; };
 		B467003F1EEACB7500DA522C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467003E1EEACB7500DA522C /* AppDelegate.swift */; };
 		B46700461EEACB7500DA522C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46700451EEACB7500DA522C /* Assets.xcassets */; };
 		B46700491EEACB7500DA522C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46700471EEACB7500DA522C /* LaunchScreen.storyboard */; };
@@ -102,6 +110,14 @@
 		B462307D1EEEE07300C94EFF /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		B462308B1EEEE0B200C94EFF /* CartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
 		B462308C1EEEE0B200C94EFF /* CartItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItems.swift; sourceTree = "<group>"; };
+		B46230971EEEE1A200C94EFF /* InMemoryCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryCart.swift; sourceTree = "<group>"; };
+		B46230981EEEE1A200C94EFF /* InMemoryCartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryCartItem.swift; sourceTree = "<group>"; };
+		B462309A1EEEE1A200C94EFF /* CartTableItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableItems.swift; sourceTree = "<group>"; };
+		B462309B1EEEE1A200C94EFF /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		B46230A01EEEE1C300C94EFF /* AddButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		B46230A11EEEE1C300C94EFF /* CheckoutButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutButton.swift; sourceTree = "<group>"; };
+		B46230A61EEEE1E900C94EFF /* ModalTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
+		B46230A71EEEE1E900C94EFF /* PushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
 		B467003B1EEACB7500DA522C /* Cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B467003E1EEACB7500DA522C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B46700451EEACB7500DA522C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -194,6 +210,8 @@
 		B46230221EEEDD8400C94EFF /* BarButtonItems */ = {
 			isa = PBXGroup;
 			children = (
+				B46230A01EEEE1C300C94EFF /* AddButton.swift */,
+				B46230A11EEEE1C300C94EFF /* CheckoutButton.swift */,
 				B46230241EEEDD8400C94EFF /* CancelButton.swift */,
 			);
 			path = BarButtonItems;
@@ -290,6 +308,8 @@
 		B462306B1EEEDED600C94EFF /* Transitions */ = {
 			isa = PBXGroup;
 			children = (
+				B46230A61EEEE1E900C94EFF /* ModalTransition.swift */,
+				B46230A71EEEE1E900C94EFF /* PushTransition.swift */,
 				B462306C1EEEDED600C94EFF /* DismissTransition.swift */,
 			);
 			path = Transitions;
@@ -336,6 +356,8 @@
 		B46230861EEEE0B200C94EFF /* Cart */ = {
 			isa = PBXGroup;
 			children = (
+				B46230961EEEE1A200C94EFF /* Model */,
+				B46230991EEEE1A200C94EFF /* UI */,
 				B462308A1EEEE0B200C94EFF /* Protocols */,
 			);
 			path = Cart;
@@ -348,6 +370,24 @@
 				B462308C1EEEE0B200C94EFF /* CartItems.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B46230961EEEE1A200C94EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B46230971EEEE1A200C94EFF /* InMemoryCart.swift */,
+				B46230981EEEE1A200C94EFF /* InMemoryCartItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B46230991EEEE1A200C94EFF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B462309A1EEEE1A200C94EFF /* CartTableItems.swift */,
+				B462309B1EEEE1A200C94EFF /* CartViewController.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		B46700321EEACB7500DA522C = {
@@ -495,8 +535,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B462309D1EEEE1A200C94EFF /* InMemoryCartItem.swift in Sources */,
 				B46230601EEEDDFD00C94EFF /* InMemoryCurrency.swift in Sources */,
 				B462307E1EEEE07300C94EFF /* InMemoryProduct.swift in Sources */,
+				B46230A21EEEE1C300C94EFF /* AddButton.swift in Sources */,
 				B462306E1EEEDED600C94EFF /* DismissTransition.swift in Sources */,
 				B46230851EEEE07300C94EFF /* ProductsViewController.swift in Sources */,
 				B462307F1EEEE07300C94EFF /* InMemoryProducts.swift in Sources */,
@@ -508,12 +550,16 @@
 				B46230821EEEE07300C94EFF /* Products.swift in Sources */,
 				B462305C1EEEDDFD00C94EFF /* JSONRatesURL.swift in Sources */,
 				B46230351EEEDD8400C94EFF /* ConstString.swift in Sources */,
+				B462309E1EEEE1A200C94EFF /* CartTableItems.swift in Sources */,
 				B46230401EEEDD8400C94EFF /* ViewDelegate.swift in Sources */,
 				B46230671EEEDDFD00C94EFF /* CurrenciesViewController.swift in Sources */,
 				B462305E1EEEDDFD00C94EFF /* CurrencyName.swift in Sources */,
+				B46230A31EEEE1C300C94EFF /* CheckoutButton.swift in Sources */,
+				B462309C1EEEE1A200C94EFF /* InMemoryCart.swift in Sources */,
 				B46230361EEEDD8400C94EFF /* ConstURL.swift in Sources */,
 				B46230921EEEE0B200C94EFF /* CartItem.swift in Sources */,
 				B46230411EEEDD8400C94EFF /* TableView.swift in Sources */,
+				B46230A81EEEE1E900C94EFF /* ModalTransition.swift in Sources */,
 				B46230831EEEE07300C94EFF /* Unit.swift in Sources */,
 				B462306A1EEEDE7000C94EFF /* ClosingTableDelegate.swift in Sources */,
 				B46230651EEEDDFD00C94EFF /* CurrencySource.swift in Sources */,
@@ -524,6 +570,7 @@
 				B467003F1EEACB7500DA522C /* AppDelegate.swift in Sources */,
 				B46230611EEEDDFD00C94EFF /* JSONRatesCurrencies.swift in Sources */,
 				B462305F1EEEDDFD00C94EFF /* InMemoryCurrencies.swift in Sources */,
+				B46230A91EEEE1E900C94EFF /* PushTransition.swift in Sources */,
 				B462305B1EEEDDFD00C94EFF /* JSONRates.swift in Sources */,
 				B462305D1EEEDDFD00C94EFF /* CurrencyRefresh.swift in Sources */,
 				B46230811EEEE07300C94EFF /* Product.swift in Sources */,
@@ -532,6 +579,7 @@
 				B46230681EEEDDFD00C94EFF /* CurrencyTableViewCell.swift in Sources */,
 				B462303F1EEEDD8400C94EFF /* Transition.swift in Sources */,
 				B46230841EEEE07300C94EFF /* ProductsTableData.swift in Sources */,
+				B462309F1EEEE1A200C94EFF /* CartViewController.swift in Sources */,
 				B46230341EEEDD8400C94EFF /* ConstAmount.swift in Sources */,
 				B46230381EEEDD8400C94EFF /* OOURL.swift in Sources */,
 				B462303B1EEEDD8400C94EFF /* CancelButton.swift in Sources */,

@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let cartStore = Memory<[UUID: Memory<[String:String]>]>(value: [:])
         let productStore = Memory<[UUID: Memory<[String:String]>]>(
             value: [
                 UUID() : Memory(
@@ -42,10 +43,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     ])
             ]
         )
-		window = UIWindow()
+        window = UIWindow()
         window?.rootViewController = UINavigationController(
-            rootViewController: ProductsViewController(
-                cartItems: FakeCartItems(),
+            rootViewController: CartViewController(
+                cartItems: InMemoryCart(
+                    items: cartStore,
+                    item: { (uuid) -> (CartItem) in
+                        return InMemoryCartItem(
+                            key: uuid,
+                            items: cartStore,
+                            productClosure: {(uuid) -> (Product) in
+                                return InMemoryProduct(
+                                    uuid: uuid,
+                                    products: productStore
+                                )
+                        }
+                        )
+                }
+                ),
                 products: InMemoryProducts(
                     products: productStore,
                     product: { (uuid) -> (Product) in
@@ -53,8 +68,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                             uuid: uuid,
                             products: productStore
                         )
-                    }
-                )
+                }
+                ),
+                currencies: JSONRatesCurrencies()
             )
         )
         window?.makeKeyAndVisible()
