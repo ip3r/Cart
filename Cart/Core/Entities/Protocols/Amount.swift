@@ -23,6 +23,6 @@ internal final class FakeAmount: Amount {
     // MARK: - Amount
 	
 	var value: Double {
-		return 0
+		return 123
 	}
 }

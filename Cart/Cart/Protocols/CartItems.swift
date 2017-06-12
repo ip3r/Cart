@@ -15,7 +15,8 @@ internal protocol CartItems: class {
 }
 
 internal final class FakeCartItems: CartItems {
-	// MARK: - Init
+    
+    // MARK: - Init
     
     internal init() {
         
@@ -24,7 +25,7 @@ internal final class FakeCartItems: CartItems {
     // MARK: - CartItems
 	
 	var count: Int {
-		return 0
+		return 3
 	}
 	
 	func insert(product: Product) {
