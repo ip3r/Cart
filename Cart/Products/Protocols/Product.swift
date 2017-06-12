@@ -20,7 +20,13 @@ internal final class FakeProduct: Product {
     
     internal convenience init() {
         self.init(
-			uuid: UUID(),
+			uuid: UUID()
+        )
+    }
+    
+    internal convenience init(uuid: UUID) {
+        self.init(
+            uuid: uuid,
             name: ConstString("Hello"),
             price: FakeAmount()
         )

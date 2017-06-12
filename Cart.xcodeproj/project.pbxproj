@@ -13,6 +13,8 @@
 		B4383EFD1EEEF2400043110A /* JSONRatesCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4383EFC1EEEF2400043110A /* JSONRatesCurrency.swift */; };
 		B4383EFF1EEEF3880043110A /* InMemoryCurrencySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4383EFE1EEEF3880043110A /* InMemoryCurrencySpec.swift */; };
 		B4383F041EEEF5640043110A /* TotalCartAmountSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4383F031EEEF5640043110A /* TotalCartAmountSpec.swift */; };
+		B4383F081EEEF7BB0043110A /* InMemoryCartSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4383F071EEEF7BB0043110A /* InMemoryCartSpec.swift */; };
+		B4383F0A1EEEFAFC0043110A /* InMemoryCartItemSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4383F091EEEFAFC0043110A /* InMemoryCartItemSpec.swift */; };
 		B46230341EEEDD8400C94EFF /* ConstAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230191EEEDD8400C94EFF /* ConstAmount.swift */; };
 		B46230351EEEDD8400C94EFF /* ConstString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462301A1EEEDD8400C94EFF /* ConstString.swift */; };
 		B46230361EEEDD8400C94EFF /* ConstURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462301B1EEEDD8400C94EFF /* ConstURL.swift */; };
@@ -88,6 +90,8 @@
 		B4383EFC1EEEF2400043110A /* JSONRatesCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONRatesCurrency.swift; sourceTree = "<group>"; };
 		B4383EFE1EEEF3880043110A /* InMemoryCurrencySpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryCurrencySpec.swift; sourceTree = "<group>"; };
 		B4383F031EEEF5640043110A /* TotalCartAmountSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCartAmountSpec.swift; sourceTree = "<group>"; };
+		B4383F071EEEF7BB0043110A /* InMemoryCartSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryCartSpec.swift; sourceTree = "<group>"; };
+		B4383F091EEEFAFC0043110A /* InMemoryCartItemSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryCartItemSpec.swift; sourceTree = "<group>"; };
 		B46230191EEEDD8400C94EFF /* ConstAmount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstAmount.swift; sourceTree = "<group>"; };
 		B462301A1EEEDD8400C94EFF /* ConstString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstString.swift; sourceTree = "<group>"; };
 		B462301B1EEEDD8400C94EFF /* ConstURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstURL.swift; sourceTree = "<group>"; };
@@ -214,6 +218,23 @@
 			isa = PBXGroup;
 			children = (
 				B4383F031EEEF5640043110A /* TotalCartAmountSpec.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4383F051EEEF7A40043110A /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				B4383F061EEEF7AD0043110A /* Model */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		B4383F061EEEF7AD0043110A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4383F071EEEF7BB0043110A /* InMemoryCartSpec.swift */,
+				B4383F091EEEFAFC0043110A /* InMemoryCartItemSpec.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -537,6 +558,7 @@
 		B4F5FEED1EEDCFA300B3EBC1 /* CartTests */ = {
 			isa = PBXGroup;
 			children = (
+				B4383F051EEEF7A40043110A /* Cart */,
 				B4383F011EEEF5510043110A /* Checkout */,
 				B4383EF11EEEEAF90043110A /* Currencies */,
 				B46230C21EEEE5DF00C94EFF /* Core */,
@@ -712,7 +734,9 @@
 				B46230C81EEEE5DF00C94EFF /* ConstStringSpec.swift in Sources */,
 				B46230C91EEEE5DF00C94EFF /* ConstURLSpec.swift in Sources */,
 				B4383EFB1EEEEF810043110A /* SortedCurrenciesSpec.swift in Sources */,
+				B4383F0A1EEEFAFC0043110A /* InMemoryCartItemSpec.swift in Sources */,
 				B4383EF91EEEED0B0043110A /* InMemoryCurrenciesSpec.swift in Sources */,
+				B4383F081EEEF7BB0043110A /* InMemoryCartSpec.swift in Sources */,
 				B46230C71EEEE5DF00C94EFF /* ConstAmountSpec.swift in Sources */,
 				B4383EF01EEEE8F20043110A /* MemorySpec.swift in Sources */,
 			);

@@ -33,6 +33,6 @@ internal final class FakeCartItems: CartItems {
 	}
 	
 	subscript(index: Int) -> CartItem {
-		return FakeCartItem()
+        return FakeCartItem(uuid: UUID())
 	}
 }
