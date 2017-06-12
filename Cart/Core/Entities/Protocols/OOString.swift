@@ -26,3 +26,19 @@ internal final class FakeOOString: OOString {
         return "Fake"
     }
 }
+
+internal class OOStringWrap: OOString {
+    private let origin: OOString
+    
+    // MARK: - Init
+    
+    internal init(origin: OOString) {
+        self.origin = origin
+    }
+    
+    // MARK: - OOString
+    
+    var stringValue: String {
+        return origin.stringValue
+    }
+}

@@ -1,5 +1,5 @@
 //
-//  CartTests.swift
+//  InMemoryCurrencySpec.swift
 //  CartTests
 //
 //  Created by Jens Meder on 12.06.17.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class CartTests: XCTestCase {
+class InMemoryCurrencySpec: XCTestCase {
     
     override func setUp() {
         super.setUp()

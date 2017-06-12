@@ -39,3 +39,36 @@ internal final class FakeCurrency: Currency {
 		
 	}
 }
+
+internal class CurrencyWrap: Currency {
+    private let origin: Currency
+    
+    // MARK: - Init
+    
+    internal init(origin: Currency) {
+        self.origin = origin
+    }
+    
+    // MARK: - Currency
+    
+    var sign: OOString {
+        return origin.sign
+    }
+    
+    var name: OOString {
+        return origin.name
+    }
+    
+    var rate: Double {
+        get {
+            return origin.rate
+        }
+        set {
+            origin.rate = newValue
+        }
+    }
+    
+    func makeCurrent() {
+        origin.makeCurrent()
+    }
+}

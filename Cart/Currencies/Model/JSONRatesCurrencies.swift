@@ -189,14 +189,22 @@ internal final class JSONRatesCurrencies: CurrenciesWrap {
     }
     
     internal required init(values: [String: Float]) {
+        let currencies = Memory(
+            value: values
+        )
         super.init(
             origin: SortedCurrencies(
                 keys: values.keys.sorted(),
                 origin: InMemoryCurrencies(
-                    currencies: Memory(
-                        value: values
-                    ),
-                    currentISO: Memory<String>(value: "USD")
+                    currencies: currencies,
+                    currentISO: Memory<String>(value: "USD"),
+                    closure: { (key, current) -> (Currency) in
+                        return JSONRatesCurrency(
+                            currencies: currencies,
+                            key: key,
+                            current: current
+                        )
+                    }
                 )
             )
         )

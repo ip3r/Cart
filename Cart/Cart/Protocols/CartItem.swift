@@ -9,19 +9,22 @@
 import Foundation
 
 internal protocol CartItem: class {
+    var uuid: UUID {get}
 	var product: Product {get}
 	func delete()
 }
 
 internal final class FakeCartItem: CartItem {
-
+    
 	// MARK: - Init
     
-    internal init() {
-        
+    internal init(uuid: UUID) {
+        self.uuid = uuid
     }
     
     // MARK: - CartItem
+    
+    let uuid: UUID
     
 	var product: Product {
 		return FakeProduct()

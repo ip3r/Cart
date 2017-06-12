@@ -9,25 +9,26 @@
 import Foundation
 
 internal final class InMemoryCartItem: CartItem {
-	private let key: UUID
 	private var items: Memory<[UUID:Memory<[String:String]>]>
 	private let productClosure: (UUID) -> (Product)
 	
 	// MARK: Init
     
     internal init(key: UUID, items: Memory<[UUID:Memory<[String:String]>]>, productClosure: @escaping (UUID) -> (Product)) {
-        self.key = key
+        self.uuid = key
 		self.items = items
 		self.productClosure = productClosure
     }
     
     // MARK: CartItem
-	
+    
+    let uuid: UUID
+    
 	var product: Product {
-		return productClosure(UUID(uuidString: items.value[key]!.value["product"]!)!)
+		return productClosure(UUID(uuidString: items.value[uuid]!.value["product"]!)!)
 	}
 	
 	func delete() {
-		items.value.removeValue(forKey: key)
+		items.value.removeValue(forKey: uuid)
 	}
 }

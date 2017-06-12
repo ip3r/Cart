@@ -8,18 +8,15 @@
 
 import Foundation
 
-internal final class JSONRatesURL: OOURL {
-	private let accessKey: OOString
-	
+internal final class JSONRatesURL: OOURLWrap {
+    
 	// MARK: Init
     
-    internal init(accessKey: OOString) {
-        self.accessKey = accessKey
+    internal required init() {
+        super.init(
+            origin: ConstURL(
+                URL(string: "http://apilayer.net/api/live?access_key=" + APIToken().stringValue)!
+            )
+        )
     }
-    
-    // MARK: OOURL
-	
-	var urlValue: URL {
-		return URL(string: "http://apilayer.net/api/live?access_key=" + accessKey.stringValue)!
-	}
 }

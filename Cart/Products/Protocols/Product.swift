@@ -11,7 +11,6 @@ import Foundation
 internal protocol Product: class {
 	var uuid: UUID {get}
     var name: OOString {get}
-    var unit: Unit {get}
     var price: Amount {get}
 }
 
@@ -21,16 +20,20 @@ internal final class FakeProduct: Product {
     
     internal convenience init() {
         self.init(
-			uuid: UUID(),
+			uuid: UUID()
+        )
+    }
+    
+    internal convenience init(uuid: UUID) {
+        self.init(
+            uuid: uuid,
             name: ConstString("Hello"),
-            unit: FakeUnit(),
             price: FakeAmount()
         )
     }
     
-	internal required init(uuid: UUID, name: OOString, unit: Unit, price: Amount) {
+	internal required init(uuid: UUID, name: OOString, price: Amount) {
         self.name = name
-        self.unit = unit
         self.price = price
 		self.uuid = uuid
     }
@@ -40,8 +43,6 @@ internal final class FakeProduct: Product {
 	let uuid: UUID
 	
     let name: OOString
-    
-    let unit: Unit
     
     let price: Amount
 }

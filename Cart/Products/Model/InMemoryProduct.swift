@@ -26,10 +26,6 @@ internal final class InMemoryProduct: Product {
 		return ConstString(products.value[uuid]!.value["name"]!)
 	}
 	
-	var unit: Unit {
-		return FakeUnit()
-	}
-	
 	var price: Amount {
 		return ConstAmount(value: Double(products.value[uuid]!.value["amount"]!)!)
 	}
