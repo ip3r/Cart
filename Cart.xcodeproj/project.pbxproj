@@ -37,6 +37,15 @@
 		B462306A1EEEDE7000C94EFF /* ClosingTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230691EEEDE7000C94EFF /* ClosingTableDelegate.swift */; };
 		B462306E1EEEDED600C94EFF /* DismissTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462306C1EEEDED600C94EFF /* DismissTransition.swift */; };
 		B46230711EEEDEFF00C94EFF /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230701EEEDEFF00C94EFF /* Amount.swift */; };
+		B462307E1EEEE07300C94EFF /* InMemoryProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230741EEEE07300C94EFF /* InMemoryProduct.swift */; };
+		B462307F1EEEE07300C94EFF /* InMemoryProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230751EEEE07300C94EFF /* InMemoryProducts.swift */; };
+		B46230811EEEE07300C94EFF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230781EEEE07300C94EFF /* Product.swift */; };
+		B46230821EEEE07300C94EFF /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230791EEEE07300C94EFF /* Products.swift */; };
+		B46230831EEEE07300C94EFF /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462307A1EEEE07300C94EFF /* Unit.swift */; };
+		B46230841EEEE07300C94EFF /* ProductsTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462307C1EEEE07300C94EFF /* ProductsTableData.swift */; };
+		B46230851EEEE07300C94EFF /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462307D1EEEE07300C94EFF /* ProductsViewController.swift */; };
+		B46230921EEEE0B200C94EFF /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462308B1EEEE0B200C94EFF /* CartItem.swift */; };
+		B46230931EEEE0B200C94EFF /* CartItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462308C1EEEE0B200C94EFF /* CartItems.swift */; };
 		B467003F1EEACB7500DA522C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467003E1EEACB7500DA522C /* AppDelegate.swift */; };
 		B46700461EEACB7500DA522C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46700451EEACB7500DA522C /* Assets.xcassets */; };
 		B46700491EEACB7500DA522C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46700471EEACB7500DA522C /* LaunchScreen.storyboard */; };
@@ -84,6 +93,15 @@
 		B46230691EEEDE7000C94EFF /* ClosingTableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosingTableDelegate.swift; sourceTree = "<group>"; };
 		B462306C1EEEDED600C94EFF /* DismissTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissTransition.swift; sourceTree = "<group>"; };
 		B46230701EEEDEFF00C94EFF /* Amount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
+		B46230741EEEE07300C94EFF /* InMemoryProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryProduct.swift; sourceTree = "<group>"; };
+		B46230751EEEE07300C94EFF /* InMemoryProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryProducts.swift; sourceTree = "<group>"; };
+		B46230781EEEE07300C94EFF /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B46230791EEEE07300C94EFF /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		B462307A1EEEE07300C94EFF /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		B462307C1EEEE07300C94EFF /* ProductsTableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableData.swift; sourceTree = "<group>"; };
+		B462307D1EEEE07300C94EFF /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		B462308B1EEEE0B200C94EFF /* CartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		B462308C1EEEE0B200C94EFF /* CartItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItems.swift; sourceTree = "<group>"; };
 		B467003B1EEACB7500DA522C /* Cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B467003E1EEACB7500DA522C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B46700451EEACB7500DA522C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -277,6 +295,61 @@
 			path = Transitions;
 			sourceTree = "<group>";
 		};
+		B46230721EEEE07300C94EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B46230731EEEE07300C94EFF /* Model */,
+				B46230761EEEE07300C94EFF /* Protocols */,
+				B462307B1EEEE07300C94EFF /* UI */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		B46230731EEEE07300C94EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B46230741EEEE07300C94EFF /* InMemoryProduct.swift */,
+				B46230751EEEE07300C94EFF /* InMemoryProducts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B46230761EEEE07300C94EFF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B46230781EEEE07300C94EFF /* Product.swift */,
+				B46230791EEEE07300C94EFF /* Products.swift */,
+				B462307A1EEEE07300C94EFF /* Unit.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B462307B1EEEE07300C94EFF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B462307C1EEEE07300C94EFF /* ProductsTableData.swift */,
+				B462307D1EEEE07300C94EFF /* ProductsViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B46230861EEEE0B200C94EFF /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				B462308A1EEEE0B200C94EFF /* Protocols */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		B462308A1EEEE0B200C94EFF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B462308B1EEEE0B200C94EFF /* CartItem.swift */,
+				B462308C1EEEE0B200C94EFF /* CartItems.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		B46700321EEACB7500DA522C = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +371,8 @@
 		B467003D1EEACB7500DA522C /* Cart */ = {
 			isa = PBXGroup;
 			children = (
+				B46230861EEEE0B200C94EFF /* Cart */,
+				B46230721EEEE07300C94EFF /* Products */,
 				B46230461EEEDDFD00C94EFF /* Currencies */,
 				B46230161EEEDD8400C94EFF /* Core */,
 				B467003E1EEACB7500DA522C /* AppDelegate.swift */,
@@ -421,22 +496,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46230601EEEDDFD00C94EFF /* InMemoryCurrency.swift in Sources */,
+				B462307E1EEEE07300C94EFF /* InMemoryProduct.swift in Sources */,
 				B462306E1EEEDED600C94EFF /* DismissTransition.swift in Sources */,
+				B46230851EEEE07300C94EFF /* ProductsViewController.swift in Sources */,
+				B462307F1EEEE07300C94EFF /* InMemoryProducts.swift in Sources */,
 				B46230711EEEDEFF00C94EFF /* Amount.swift in Sources */,
 				B46230631EEEDDFD00C94EFF /* Currencies.swift in Sources */,
 				B46230371EEEDD8400C94EFF /* OOString.swift in Sources */,
 				B46230641EEEDDFD00C94EFF /* Currency.swift in Sources */,
 				B462305A1EEEDDFD00C94EFF /* APIToken.swift in Sources */,
+				B46230821EEEE07300C94EFF /* Products.swift in Sources */,
 				B462305C1EEEDDFD00C94EFF /* JSONRatesURL.swift in Sources */,
 				B46230351EEEDD8400C94EFF /* ConstString.swift in Sources */,
 				B46230401EEEDD8400C94EFF /* ViewDelegate.swift in Sources */,
 				B46230671EEEDDFD00C94EFF /* CurrenciesViewController.swift in Sources */,
 				B462305E1EEEDDFD00C94EFF /* CurrencyName.swift in Sources */,
 				B46230361EEEDD8400C94EFF /* ConstURL.swift in Sources */,
+				B46230921EEEE0B200C94EFF /* CartItem.swift in Sources */,
 				B46230411EEEDD8400C94EFF /* TableView.swift in Sources */,
+				B46230831EEEE07300C94EFF /* Unit.swift in Sources */,
 				B462306A1EEEDE7000C94EFF /* ClosingTableDelegate.swift in Sources */,
 				B46230651EEEDDFD00C94EFF /* CurrencySource.swift in Sources */,
 				B46230451EEEDD8400C94EFF /* Memory.swift in Sources */,
+				B46230931EEEE0B200C94EFF /* CartItems.swift in Sources */,
 				B46230391EEEDD8400C94EFF /* ViewDelegates.swift in Sources */,
 				B46230661EEEDDFD00C94EFF /* CurrenciesTableItems.swift in Sources */,
 				B467003F1EEACB7500DA522C /* AppDelegate.swift in Sources */,
@@ -444,10 +526,12 @@
 				B462305F1EEEDDFD00C94EFF /* InMemoryCurrencies.swift in Sources */,
 				B462305B1EEEDDFD00C94EFF /* JSONRates.swift in Sources */,
 				B462305D1EEEDDFD00C94EFF /* CurrencyRefresh.swift in Sources */,
+				B46230811EEEE07300C94EFF /* Product.swift in Sources */,
 				B46230621EEEDDFD00C94EFF /* SortedCurrencies.swift in Sources */,
 				B462303E1EEEDD8400C94EFF /* ViewController.swift in Sources */,
 				B46230681EEEDDFD00C94EFF /* CurrencyTableViewCell.swift in Sources */,
 				B462303F1EEEDD8400C94EFF /* Transition.swift in Sources */,
+				B46230841EEEE07300C94EFF /* ProductsTableData.swift in Sources */,
 				B46230341EEEDD8400C94EFF /* ConstAmount.swift in Sources */,
 				B46230381EEEDD8400C94EFF /* OOURL.swift in Sources */,
 				B462303B1EEEDD8400C94EFF /* CancelButton.swift in Sources */,
