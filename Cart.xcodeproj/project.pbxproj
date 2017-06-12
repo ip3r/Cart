@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4383EF01EEEE8F20043110A /* MemorySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4383EEF1EEEE8F20043110A /* MemorySpec.swift */; };
 		B46230341EEEDD8400C94EFF /* ConstAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230191EEEDD8400C94EFF /* ConstAmount.swift */; };
 		B46230351EEEDD8400C94EFF /* ConstString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462301A1EEEDD8400C94EFF /* ConstString.swift */; };
 		B46230361EEEDD8400C94EFF /* ConstURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462301B1EEEDD8400C94EFF /* ConstURL.swift */; };
@@ -36,7 +37,6 @@
 		B46230681EEEDDFD00C94EFF /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230591EEEDDFD00C94EFF /* CurrencyTableViewCell.swift */; };
 		B462306A1EEEDE7000C94EFF /* ClosingTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230691EEEDE7000C94EFF /* ClosingTableDelegate.swift */; };
 		B462306E1EEEDED600C94EFF /* DismissTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462306C1EEEDED600C94EFF /* DismissTransition.swift */; };
-		B46230711EEEDEFF00C94EFF /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230701EEEDEFF00C94EFF /* Amount.swift */; };
 		B462307E1EEEE07300C94EFF /* InMemoryProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230741EEEE07300C94EFF /* InMemoryProduct.swift */; };
 		B462307F1EEEE07300C94EFF /* InMemoryProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230751EEEE07300C94EFF /* InMemoryProducts.swift */; };
 		B46230811EEEE07300C94EFF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230781EEEE07300C94EFF /* Product.swift */; };
@@ -59,10 +59,13 @@
 		B46230B51EEEE36200C94EFF /* CheckoutTableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230AF1EEEE36200C94EFF /* CheckoutTableItems.swift */; };
 		B46230B61EEEE36200C94EFF /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230B01EEEE36200C94EFF /* CheckoutViewController.swift */; };
 		B46230B91EEEE3A800C94EFF /* CurrencyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230B81EEEE3A800C94EFF /* CurrencyButton.swift */; };
+		B46230C11EEEE5AC00C94EFF /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230C01EEEE5AC00C94EFF /* Amount.swift */; };
+		B46230C71EEEE5DF00C94EFF /* ConstAmountSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230C41EEEE5DF00C94EFF /* ConstAmountSpec.swift */; };
+		B46230C81EEEE5DF00C94EFF /* ConstStringSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230C51EEEE5DF00C94EFF /* ConstStringSpec.swift */; };
+		B46230C91EEEE5DF00C94EFF /* ConstURLSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46230C61EEEE5DF00C94EFF /* ConstURLSpec.swift */; };
 		B467003F1EEACB7500DA522C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467003E1EEACB7500DA522C /* AppDelegate.swift */; };
 		B46700461EEACB7500DA522C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46700451EEACB7500DA522C /* Assets.xcassets */; };
 		B46700491EEACB7500DA522C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46700471EEACB7500DA522C /* LaunchScreen.storyboard */; };
-		B4F5FEEF1EEDCFA300B3EBC1 /* CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F5FEEE1EEDCFA300B3EBC1 /* CartTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4383EEF1EEEE8F20043110A /* MemorySpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorySpec.swift; sourceTree = "<group>"; };
 		B46230191EEEDD8400C94EFF /* ConstAmount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstAmount.swift; sourceTree = "<group>"; };
 		B462301A1EEEDD8400C94EFF /* ConstString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstString.swift; sourceTree = "<group>"; };
 		B462301B1EEEDD8400C94EFF /* ConstURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstURL.swift; sourceTree = "<group>"; };
@@ -105,7 +109,6 @@
 		B46230591EEEDDFD00C94EFF /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
 		B46230691EEEDE7000C94EFF /* ClosingTableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosingTableDelegate.swift; sourceTree = "<group>"; };
 		B462306C1EEEDED600C94EFF /* DismissTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissTransition.swift; sourceTree = "<group>"; };
-		B46230701EEEDEFF00C94EFF /* Amount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
 		B46230741EEEE07300C94EFF /* InMemoryProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryProduct.swift; sourceTree = "<group>"; };
 		B46230751EEEE07300C94EFF /* InMemoryProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryProducts.swift; sourceTree = "<group>"; };
 		B46230781EEEE07300C94EFF /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -128,13 +131,16 @@
 		B46230AF1EEEE36200C94EFF /* CheckoutTableItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutTableItems.swift; sourceTree = "<group>"; };
 		B46230B01EEEE36200C94EFF /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		B46230B81EEEE3A800C94EFF /* CurrencyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyButton.swift; sourceTree = "<group>"; };
+		B46230C01EEEE5AC00C94EFF /* Amount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
+		B46230C41EEEE5DF00C94EFF /* ConstAmountSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstAmountSpec.swift; sourceTree = "<group>"; };
+		B46230C51EEEE5DF00C94EFF /* ConstStringSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstStringSpec.swift; sourceTree = "<group>"; };
+		B46230C61EEEE5DF00C94EFF /* ConstURLSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstURLSpec.swift; sourceTree = "<group>"; };
 		B467003B1EEACB7500DA522C /* Cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B467003E1EEACB7500DA522C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B46700451EEACB7500DA522C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B46700481EEACB7500DA522C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B467004A1EEACB7500DA522C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4F5FEEC1EEDCFA300B3EBC1 /* CartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4F5FEEE1EEDCFA300B3EBC1 /* CartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTests.swift; sourceTree = "<group>"; };
 		B4F5FEF01EEDCFA300B3EBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +162,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4383EEE1EEEE8E30043110A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B4383EEF1EEEE8F20043110A /* MemorySpec.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		B46230161EEEDD8400C94EFF /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +184,6 @@
 		B46230171EEEDD8400C94EFF /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				B46230701EEEDEFF00C94EFF /* Amount.swift */,
 				B46230181EEEDD8400C94EFF /* Const */,
 				B462301C1EEEDD8400C94EFF /* Protocols */,
 			);
@@ -190,6 +203,7 @@
 		B462301C1EEEDD8400C94EFF /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				B46230C01EEEE5AC00C94EFF /* Amount.swift */,
 				B462301D1EEEDD8400C94EFF /* OOString.swift */,
 				B462301E1EEEDD8400C94EFF /* OOURL.swift */,
 			);
@@ -420,6 +434,25 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		B46230C21EEEE5DF00C94EFF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B4383EEE1EEEE8E30043110A /* Utils */,
+				B46230C31EEEE5DF00C94EFF /* Entities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B46230C31EEEE5DF00C94EFF /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B46230C41EEEE5DF00C94EFF /* ConstAmountSpec.swift */,
+				B46230C51EEEE5DF00C94EFF /* ConstStringSpec.swift */,
+				B46230C61EEEE5DF00C94EFF /* ConstURLSpec.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		B46700321EEACB7500DA522C = {
 			isa = PBXGroup;
 			children = (
@@ -457,7 +490,7 @@
 		B4F5FEED1EEDCFA300B3EBC1 /* CartTests */ = {
 			isa = PBXGroup;
 			children = (
-				B4F5FEEE1EEDCFA300B3EBC1 /* CartTests.swift */,
+				B46230C21EEEE5DF00C94EFF /* Core */,
 				B4F5FEF01EEDCFA300B3EBC1 /* Info.plist */,
 			);
 			path = CartTests;
@@ -518,7 +551,7 @@
 					};
 					B4F5FEEB1EEDCFA300B3EBC1 = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 0830;
 						TestTargetID = B467003A1EEACB7500DA522C;
 					};
 				};
@@ -573,7 +606,6 @@
 				B462306E1EEEDED600C94EFF /* DismissTransition.swift in Sources */,
 				B46230851EEEE07300C94EFF /* ProductsViewController.swift in Sources */,
 				B462307F1EEEE07300C94EFF /* InMemoryProducts.swift in Sources */,
-				B46230711EEEDEFF00C94EFF /* Amount.swift in Sources */,
 				B46230631EEEDDFD00C94EFF /* Currencies.swift in Sources */,
 				B46230371EEEDD8400C94EFF /* OOString.swift in Sources */,
 				B46230641EEEDDFD00C94EFF /* Currency.swift in Sources */,
@@ -610,6 +642,7 @@
 				B46230811EEEE07300C94EFF /* Product.swift in Sources */,
 				B46230621EEEDDFD00C94EFF /* SortedCurrencies.swift in Sources */,
 				B462303E1EEEDD8400C94EFF /* ViewController.swift in Sources */,
+				B46230C11EEEE5AC00C94EFF /* Amount.swift in Sources */,
 				B46230B41EEEE36200C94EFF /* AmountTitle.swift in Sources */,
 				B46230681EEEDDFD00C94EFF /* CurrencyTableViewCell.swift in Sources */,
 				B462303F1EEEDD8400C94EFF /* Transition.swift in Sources */,
@@ -626,7 +659,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4F5FEEF1EEDCFA300B3EBC1 /* CartTests.swift in Sources */,
+				B46230C81EEEE5DF00C94EFF /* ConstStringSpec.swift in Sources */,
+				B46230C91EEEE5DF00C94EFF /* ConstURLSpec.swift in Sources */,
+				B46230C71EEEE5DF00C94EFF /* ConstAmountSpec.swift in Sources */,
+				B4383EF01EEEE8F20043110A /* MemorySpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,11 +849,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CartTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.jensmeder.CartTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cart.app/Cart";
@@ -828,6 +866,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CartTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
